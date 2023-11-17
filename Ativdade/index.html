@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="arquivojs.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Botões</h1></header>
+    <hr>
+    <nav>
+        <h2>Bloco 1</h2>
+        <button class="butao" type="button" onclick="Mudar_Cor_Primeiro_Quadrado('quadrado1', 'cor1')">Cor 1</button>
+        <button class="butao" type="button" onclick="Mudar_Cor_Primeiro_Quadrado('quadrado1', 'cor2')">Cor 2</button>
+        <button class="butao" type="button" onclick="Mudar_Cor_Primeiro_Quadrado('quadrado1', 'cor3')">Cor 3</button>
+        <button class="butao" type="button" onclick="Mudar_Cor_Primeiro_Quadrado('quadrado1', 'cor4')">Cor 4</button>
+        
+        <h2>Bloco 2</h2>
+        <button class="butao" type="button" onclick="Mudar_Cor_Segundo_Quadrado('quadrado3', 'cor1')">Cor 1</button>
+        <button class="butao" type="button" onclick="Mudar_Cor_Segundo_Quadrado('quadrado3', 'cor2')">Cor 2</button>
+        <button class="butao" type="button" onclick="Mudar_Cor_Segundo_Quadrado('quadrado3', 'cor3')">Cor 3</button>
+        <button class="butao" type="button" onclick="Mudar_Cor_Segundo_Quadrado('quadrado3', 'cor4')">Cor 4</button>
+        
+        <h2>Bloco 3</h2>
+        <button class="butao" type="button" onclick="Mudar_Cor_Quadrado('quadrado6', 'cor1')">Cor 1</button>
+        <button class="butao" type="button" onclick="Mudar_Cor_Quadrado('quadrado6', 'cor2')">Cor 2</button>
+        <button class="butao" type="button" onclick="Mudar_Cor_Quadrado('quadrado6', 'cor3')">Cor 3</button>
+        <button class="butao" type="button" onclick="Mudar_Cor_Quadrado('quadrado6', 'cor4')">Cor 4</button>
+        
+        <h2>Bloco 4</h2>
+        <button class="butao" type="button" onclick="Mudar_Cor_Quadrado('quadrado7', 'cor1')">Cor 1</button>
+        <button class="butao" type="button" onclick="Mudar_Cor_Quadrado('quadrado7', 'cor2')">Cor 2</button>
+        <button class="butao" type="button" onclick="Mudar_Cor_Quadrado('quadrado7', 'cor3')">Cor 3</button>
+        <button class="butao" type="button" onclick="Mudar_Cor_Quadrado('quadrado7', 'cor4')">Cor 4</button>
+    </nav>
+    <hr>
+    <main>
+        <h2>Seção 1</h2>
+        <section>
+            <table>
+                <tr>
+                    <td class="quadrado" id="quadrado1"></td>
+                </tr>
+            </table>
+        </section>
+        <h2>Seção 2</h2>
+        <section>
+            <table>
+                <tr>
+                    <td class="quadrado" id="quadrado2"></td>
+                    <td class="quadrado" id="quadrado3"></td>
+                </tr>
+            </table>
+        </section>
+        <h2>Seção 3</h2>
+        <section>
+            <table>
+                <tr>
+                    <td class="quadrado" id="quadrado4"></td>
+                    <td class="quadrado" id="quadrado5"></td>
+                </tr>
+                <tr>
+                    <td class="quadrado" id="quadrado6"></td>
+                    <td class="quadrado" id="quadrado7"></td>
+                </tr>
+            </table>
+        </section>
+        <hr>
+        <h2>Soma</h2>
+    <input type="number" id="Input1" placeholder="Número 1">
+    <input type="number" id="Input2" placeholder="Número 2">
+    <button onclick="realizarConta()">Calcular</button>
+    <p id="resultado"></p>
+</body>
+</html>
